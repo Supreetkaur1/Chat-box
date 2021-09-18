@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+
+
+int main()
+{ cout<<":::WELCOME TO THE CHATBOX:::"<<endl<<endl;
+cout<<"Register to continue"<<endl;
+cout<<"Please Enter Your Name"<<endl;
+string name;
+cin>>name;
+
+cout<<"Please Enter Your Age"<<endl;
+int a;
+cin>>a;
+if(a<18) {system("cls");
+    cout<<"Sorry you are too young to chat in this chatbox"<<endl;}
+else { cout<<"Please Enter your email id"<<endl;
+string eid;
+cin>>eid;
+
+    system("cls");
+    cout<<"HI there!"<<endl;
+    cout<<"You may write your message here"<<endl;
+    string msg;
+    cin>>msg;
+
+
+}
+return 0;}
+
+
